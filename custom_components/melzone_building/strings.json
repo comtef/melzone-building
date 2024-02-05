@@ -1,0 +1,28 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Melzone Building configuration",
+                "description": "Provide configuration for device setup",
+                "data": {
+                    "colibri_url": "Colibri URL",
+                    "number_of_zones": "Number of zones"
+                },
+                "data_description": {
+                    "colibri_url": "Colibri API URL",
+                    "number_of_zones": "Number of zones configured on the Melzone Building device"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "room_temperature": {
+                "name": "Room temperature"
+            },
+            "target_temperature": {
+                "name": "Target temperature"
+            }
+        }
+    }
+}

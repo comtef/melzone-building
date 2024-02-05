@@ -1,0 +1,4 @@
+homeassistant==2024.1.6
+pytest
+pytest-cov
+pytest-homeassistant-custom-component
