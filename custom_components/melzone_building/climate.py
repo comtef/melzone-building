@@ -71,7 +71,7 @@ class MelzoneBuildingClimate(ClimateEntity):
     @property
     def hvac_mode(self) -> HVACMode | None:
         """Return hvac operation ie. heat, cool mode."""
-        mode = HVAC_MODE_LOOKUP[self.device.operation_mode]
+        mode = HVAC_MODE_LOOKUP.get(self.device.operation_mode)
         if not self.device.power or mode is None:
             return HVACMode.OFF
         return mode

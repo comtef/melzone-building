@@ -1,5 +1,10 @@
 {
   "name": "Melzone Building",
+  "filename": "melzone_building.zip",
+  "hide_default_branch": true,
   "render_readme": true,
-  "iot_class": "local_polling"
+  "zip_release": true,
+  "country": [
+    "FR"
+  ]
 }
